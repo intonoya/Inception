@@ -17,14 +17,13 @@ applications into any environment and know your code will run.
 
 ## So what is the difference between Docker and VM(Virtual Machine)?
 
-Virtual Machine                     |             Docker
-                                    |
-Occupy a lot of memory space,       |   Occupy a lot less memory space,
-Long time to boot up,               |   Quick boot up 'cuz it uses the running kernel that you do,
-Difficult to scale up,              |   Super easy to scale,
-Low efficiency,                     |   High efficiency,
-Volumes storage cannot be shared    |   Volumes storage can be shared across the host and the
-across the VM’s.                    |   containers.
+| Virtual Machine | Docker |
+| --- | --- |
+| Occupy a lot of memory space | Occupy a lot less memory space |
+| long time to boot up | quick boot up because it uses the running kernel that you using |
+| Difficult to scale up | super easy to scale |
+| low efficiency | high efficiency |
+| volumes storage cannot be shared across the VM’s  | volumes storage can be shared across the host and the containers |
 
 ## Docker components:
 

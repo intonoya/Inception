@@ -20,10 +20,10 @@ applications into any environment and know your code will run.
 | Virtual Machine | Docker |
 | --- | --- |
 | Occupy a lot of memory space | Occupy a lot less memory space |
-| long time to boot up | quick boot up because it uses the running kernel that you using |
-| Difficult to scale up | super easy to scale |
-| low efficiency | high efficiency |
-| volumes storage cannot be shared across the VM’s  | volumes storage can be shared across the host and the containers |
+| Long time to boot up | Quick boot up cause it uses the running kernel that you use |
+| Difficult to scale up | Super easy to scale |
+| Low efficiency | High efficiency |
+| Volumes storage cannot be shared across the VM’s  | Volumes storage can be shared across the host and the containers |
 
 ## Docker components:
 

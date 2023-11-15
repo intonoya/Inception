@@ -71,21 +71,21 @@ There are official images in Dockerhub and images of the community.
 2. One version of an image can have multiple tags,
 3. It can be local or in a remote registry of repositories (for example Dockerhub).
 
-## The Docker basic commands:
+## The basic Docker commands:
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
-11. 
-12. 
-13. 
-14. 
-15. 
+1. **`docker version`** - shows the information about the client and the Docker server;
+2. **`docker ps -a`** = shows the launched and stopped containers;
+3. **`docker ps`** - shows the launched containers;
+4. **`docker images`** - shows the local images list; 
+5. **`docker run [image_name]: tag`** - creates and launches a container with the version that you want;
+6. **`docker rm`** - removes the container;
+7. **`docker run -it [image_name/container_name/ID]`** - connects to the process in the container (-i: interactive, -t: terminal);
+8. **`docker container prune`** - removes all the stopped containers;
+9. **`docker run -d [image_name]`** - launched on the background mode;
+10. **`docker container inspect [ID/container_name]`** - details about the container;
+11. **`docker stop [ID/container_name]`** - stops the container (if it did not work, you can use docker kill)
+12. **`docker exec -it [ID/container_name] [process_name]`** - creates a process in the container if it is launched; 
+13. **`docker run -d [image_name] --name [container_name]`** - launches the container with the name you want on the background mode;
+14. **`docker run -p []:[] []`** = opens access to the server in the container;
+15. **`docker run -v ${PWD}:[]`** - 
 
